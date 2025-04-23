@@ -1,0 +1,67 @@
+{
+  "name": "swarm-builder",
+  "version": "0.2.0",
+  "description": "A framework for building and managing AI agent swarms with per-agent model selection",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "electron .",
+    "dev": "nodemon --exec 'electron .' --ext ts,tsx --watch src",
+    "test": "jest",
+    "lint": "eslint src --ext .ts,.tsx",
+    "format": "prettier --write 'src/**/*.{ts,tsx}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesmcarthur-3999/swarm-builder.git"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "swarm",
+    "llm",
+    "multi-model",
+    "anthropic",
+    "openai",
+    "autogen",
+    "crewai",
+    "langgraph"
+  ],
+  "author": "James McArthur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamesmcarthur-3999/swarm-builder/issues"
+  },
+  "homepage": "https://github.com/jamesmcarthur-3999/swarm-builder#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "electron": "^28.0.0",
+    "electron-builder": "^24.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react": "^7.32.2",
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.7",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.19.0",
+    "axios": "^1.3.6",
+    "electron-store": "^8.1.0",
+    "keytar": "^7.9.0",
+    "langchain": "^0.2.0",
+    "openai": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.1",
+    "uuid": "^9.0.0",
+    "zod": "^3.21.4"
+  }
+}
