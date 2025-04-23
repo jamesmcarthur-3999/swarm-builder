@@ -11,10 +11,12 @@ Swarm-Builder is a framework for creating and managing AI agent swarms with per-
 - **Model Preset Management**: Create and customize model configurations
 - **Cost Controls**: Monitor and limit expenditure per agent
 - **Framework Flexibility**: Support for multiple agent frameworks (AutoGen, CrewAI, LangGraph, LangChain)
+- **MCP Integration**: Native support for Anthropic's Model Context Protocol
 
 ## Documentation
 
 - [Architecture](docs/ARCHITECTURE.md): System design and components
+- [MCP Integration](docs/MCP_INTEGRATION.md): How MCP tools are integrated
 - [Installation](docs/INSTALLATION.md): Setup and configuration
 - [Usage Guide](docs/USAGE.md): How to use Swarm-Builder
 - [API Reference](docs/API.md): Detailed API documentation
